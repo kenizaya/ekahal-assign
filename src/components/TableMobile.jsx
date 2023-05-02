@@ -5,7 +5,8 @@ const TableMobile = ({ data }) => {
         return (
           <div
             key={user.ID}
-            className='w-full max-w-[500px] mx-auto border border-gray-200 rounded-lg p-4 text-sm'
+            className='w-full max-w-[500px] mx-auto border border-gray-200 rounded-lg p-4 text-sm even:bg-gray-100
+           even:text-gray-600'
           >
             <div className='flex justify-between items-center mb-2 '>
               <h3 className='text-gray-600 font-medium uppercase text-xs tracking-widest'>
